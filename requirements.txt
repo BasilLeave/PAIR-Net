@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+Pillow
+opencv-python
+tqdm
+torch
+torchvision
+git+https://github.com/openai/CLIP.git
+positional-encodings
+grad-cam
