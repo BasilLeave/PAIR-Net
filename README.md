@@ -11,13 +11,13 @@ Multilabel scene classification (MLC) is a fundamental task in remote sensing (R
 pip install -r requirements.txt
 ```
 
-### Step 2. Download datasets images and multilabel annotations.
+### Step 2. Download datasets images.
 
 - UCMerced : http://weegee.vision.ucmerced.edu/datasets/landuse.html
 
-- MLRSNet : https://data.mendeley.com/datasets/7j9bv9vwsx/3
-
 - AID : https://github.com/Hua-YS/AID-Multilabel-Dataset
+
+- MLRSNet : https://data.mendeley.com/datasets/7j9bv9vwsx/3
 
 The resulting directory hierarchy is: 
 
@@ -52,6 +52,12 @@ data
 |    |--- clip_logits.npy
 |    |--- clip_adjacency.npy
 ```
+
+**Note on Data Preparation:**
+
+Please download the `CAMs.rar` file from the [Releases](https://github.com/BasilLeave/PAIR-Net/releases) page of this repository.
+
+After downloading, extract the `CAMs.rar` file and place the `CAMs` folder into the `./data/MLRSNet/` directory, so that your file structure matches the one shown above.
 
 ### Step 4. Run experiments.
 
